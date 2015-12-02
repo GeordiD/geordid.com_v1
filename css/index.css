@@ -1,0 +1,216 @@
+
+html body {
+    margin: 0;
+    height: 100%;
+    font-family: robot-reg;
+}
+
+.bgd {
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgd-wide {
+    background-size: 100% auto;
+}
+
+.bgd-tall {
+    background-size: auto 100%;
+}
+
+#slide1 {
+    background-image:url("../img/keyboard_bgd.jpg");
+    min-height: 100vh;
+}
+
+.profile_div {
+    width: 300px;
+    position: relative;
+}
+
+#header_profile {
+    margin-top: 150px;
+}
+
+#header_fake_profile {
+    padding-top: 150px;
+}
+
+.profile_pic {
+    height:300px;
+    width:300px;
+    z-index: 100;
+}
+
+.fake-profile {
+    height: 300px;
+    width: 300px;
+    position: static;
+}
+
+#name {
+    font-family: robot-bold;
+    font-size: 50pt;
+    margin-top: 20px;
+    color: white;
+}
+
+#description {
+    font-family: robot-light;
+    font-size: 30pt;
+    margin-top: 20px;
+    color: white;
+}
+
+#home_btn_row {
+    max-width: 700px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#home_res_btn {
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+#home_con_btn {
+    margin-top: 2rem;
+}
+
+/* SECOND SLIDE */
+
+#slide2 {
+    background-color: #f5f5dc;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+#about_header {
+    font-family: robot-bold;
+    font-size: 30pt;
+    float: left;
+}
+
+#about_dwn_res {
+    float: right;
+    margin-bottom: 10px;
+}
+
+#about_text {
+    margin-top: 50px;
+}
+
+/* SLIDE 3 */
+
+#slide3 {
+    background-image: url("../img/contact_bgd.jpg");
+    overflow: hidden;
+}
+
+#contact_body {
+    padding: 75px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.contact_questions {
+    font-size: 30pt;
+    margin: 25px 0 25px 0;
+}
+
+#email {
+    margin-top: 100px;
+    font-size: 40pt;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Object types*/
+
+a.btn {
+    text-align: center;
+    background-color: #AFBE8F;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: white;
+    display: inline-block;
+    font-size: 16pt;
+    letter-spacing: 1px;
+    margin: 0;
+    overflow: visible;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: robot-light;
+    text-decoration: none;
+}
+
+/*Frequently used classes*/
+
+.center-div {
+    margin: 0 auto;
+    max-width:1000px;
+}
+
+.center-div-hor {
+    /*include the width of the div somewhere else in the div*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center-text {
+    text-align:center;
+}
+
+
+.pos-fixed {
+    position: fixed;
+}
+
+.pos-stat {
+    position: static;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+/*FONTS*/
+
+@font-face {
+    font-family: robot-reg;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robot-light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robot-bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
