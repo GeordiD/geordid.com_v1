@@ -1,0 +1,27 @@
+
+#slide_solver {
+    background-color: lightblue;
+    height: 100vh;
+}
+
+#ss_content {
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+#ss_header {
+    margin-top: 0px;
+    padding: 30px;
+    display: inline-block;
+}
+
+#ss_header h1 {
+    font-size: 60pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#ss_header h3 {
+    margin-top: 0px;
+    float: right;
+}
