@@ -2,12 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74dfa60-b42a-48b9-8a8c-8337b63d1085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sudoku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/master.css" afterPath="$PROJECT_DIR$/css/master.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sudoku.css" afterPath="$PROJECT_DIR$/css/sudoku.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sudoku.html" afterPath="$PROJECT_DIR$/sudoku.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.htpasswd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\animations.css" afterPath="$PROJECT_DIR$/src/css/animations.css" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\master.css" afterPath="$PROJECT_DIR$/src/css/master.css" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\sudoku.css" afterPath="$PROJECT_DIR$/src/css/sudoku.css" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\docs\Dosher_Resume_2015.pdf" afterPath="$PROJECT_DIR$/src/docs/Dosher_Resume_2015.pdf" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Bold.ttf" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Light.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Light.ttf" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\contact_bgd.jpg" afterPath="$PROJECT_DIR$/src/img/contact_bgd.jpg" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-144x144.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-192x192.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-192x192.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-36x36.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-36x36.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-48x48.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-48x48.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-72x72.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-96x96.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-114x114.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-114x114.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-120x120.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-120x120.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-144x144.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-152x152.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-152x152.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-180x180.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-180x180.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-57x57.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-57x57.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-60x60.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-60x60.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-72x72.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-76x76.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-76x76.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-precomposed.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\browserconfig.xml" afterPath="$PROJECT_DIR$/src/img/favicon.ico/browserconfig.xml" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-16x16.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-16x16.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-32x32.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-32x32.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-96x96.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon.ico" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon.ico" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\manifest.json" afterPath="$PROJECT_DIR$/src/img/favicon.ico/manifest.json" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-144x144.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-150x150.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-150x150.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-310x310.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-310x310.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-70x70.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-70x70.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\keyboard_bgd.jpg" afterPath="$PROJECT_DIR$/src/img/keyboard_bgd.jpg" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\profile.jpg" afterPath="$PROJECT_DIR$/src/img/profile.jpg" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\profile_border.png" afterPath="$PROJECT_DIR$/src/img/profile_border.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\twitter.png" afterPath="$PROJECT_DIR$/src/img/twitter.png" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\skrollr.js" afterPath="$PROJECT_DIR$/src/js/skrollr.js" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\sudoku.js" afterPath="$PROJECT_DIR$/src/js/sudoku.js" />
+      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\sudoku.html" afterPath="$PROJECT_DIR$/src/sudoku.html" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +73,7 @@
       <split-first>
         <leaf>
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index.css">
+            <entry file="file://$PROJECT_DIR$/src/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
@@ -40,11 +82,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sudoku.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sudoku.html">
+          <file leaf-file-name="sudoku.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sudoku.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2575588">
-                  <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+                <state vertical-scroll-proportion="-14.384615">
+                  <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -266,12 +308,32 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/.htaccess">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.055495102">
+                  <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".htpasswd" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/.htpasswd">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
           <file leaf-file-name="sudoku.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/sudoku.css">
+            <entry file="file://$PROJECT_DIR$/src/css/sudoku.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="80" selection-end-column="1" />
@@ -281,7 +343,7 @@
             </entry>
           </file>
           <file leaf-file-name="master.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/master.css">
+            <entry file="file://$PROJECT_DIR$/src/css/master.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
@@ -291,9 +353,9 @@
             </entry>
           </file>
           <file leaf-file-name="sudoku.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/sudoku.js">
+            <entry file="file://$PROJECT_DIR$/src/js/sudoku.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14798695">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
                   <folding>
                     <element signature="n#!!doc;n#handleSolvePress#0" expanded="false" />
@@ -331,6 +393,9 @@
         <option value="$PROJECT_DIR$/sudoku.html" />
         <option value="$PROJECT_DIR$/css/sudoku.css" />
         <option value="$PROJECT_DIR$/js/sudoku.js" />
+        <option value="$PROJECT_DIR$/src/sudoku.html" />
+        <option value="$PROJECT_DIR$/src/.htaccess" />
+        <option value="$PROJECT_DIR$/src/.htpasswd" />
       </list>
     </option>
   </component>
@@ -370,6 +435,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -398,28 +465,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,6 +485,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\src" />
       <recent name="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js" />
       <recent name="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css" />
     </key>
@@ -442,7 +494,7 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="sudoku.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/sudoku.html">
+    <configuration default="false" name="sudoku.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/src/sudoku.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -515,7 +567,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -527,8 +578,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -546,23 +601,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sudoku.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/master.css">
+    <entry file="file://$PROJECT_DIR$/src/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
@@ -570,7 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
@@ -578,7 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku.html">
+    <entry file="file://$PROJECT_DIR$/src/sudoku.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
@@ -810,7 +849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sudoku.css">
+    <entry file="file://$PROJECT_DIR$/src/css/sudoku.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -818,7 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/master.css">
+    <entry file="file://$PROJECT_DIR$/src/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
@@ -834,14 +873,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -856,7 +895,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -871,14 +910,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -886,7 +925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -901,14 +940,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -916,7 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -931,14 +970,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -946,7 +985,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -961,14 +1000,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -976,7 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -991,14 +1030,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1006,7 +1045,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -1021,14 +1060,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1036,7 +1075,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
@@ -1051,7 +1090,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1066,7 +1105,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/skrollr.js">
+    <entry file="file://$PROJECT_DIR$/src/js/skrollr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1080,14 +1119,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/animations.css">
+    <entry file="file://$PROJECT_DIR$/src/css/animations.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1102" column="0" selection-start-line="1102" selection-start-column="0" selection-end-line="1102" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1101,14 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1117,7 +1148,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/master.css">
+    <entry file="file://$PROJECT_DIR$/src/css/master.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
@@ -1125,7 +1156,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sudoku.css">
+    <entry file="file://$PROJECT_DIR$/src/css/sudoku.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="80" selection-end-column="1" />
@@ -1133,9 +1164,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sudoku.js">
+    <entry file="file://$PROJECT_DIR$/src/js/sudoku.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14798695">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc;n#handleSolvePress#0" expanded="false" />
@@ -1143,10 +1174,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku.html">
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2575588">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="26" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htpasswd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1364,6 +1411,14 @@
             <element signature="n#div#0;n#td#8;n#tr#2;n#tbody#2;n#colgroup#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#input#0;n#div#0;n#td#8;n#tr#2;n#tbody#2;n#colgroup#2;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055495102">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
