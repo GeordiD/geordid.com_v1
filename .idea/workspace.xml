@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74dfa60-b42a-48b9-8a8c-8337b63d1085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.htpasswd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\animations.css" afterPath="$PROJECT_DIR$/src/css/animations.css" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\master.css" afterPath="$PROJECT_DIR$/src/css/master.css" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\css\sudoku.css" afterPath="$PROJECT_DIR$/src/css/sudoku.css" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\docs\Dosher_Resume_2015.pdf" afterPath="$PROJECT_DIR$/src/docs/Dosher_Resume_2015.pdf" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Bold.ttf" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Light.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Light.ttf" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\fonts\Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\contact_bgd.jpg" afterPath="$PROJECT_DIR$/src/img/contact_bgd.jpg" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-144x144.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-192x192.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-192x192.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-36x36.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-36x36.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-48x48.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-48x48.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-72x72.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\android-icon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/android-icon-96x96.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-114x114.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-114x114.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-120x120.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-120x120.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-144x144.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-152x152.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-152x152.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-180x180.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-180x180.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-57x57.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-57x57.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-60x60.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-60x60.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-72x72.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-72x72.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-76x76.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-76x76.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon-precomposed.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon-precomposed.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\apple-icon.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/apple-icon.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\browserconfig.xml" afterPath="$PROJECT_DIR$/src/img/favicon.ico/browserconfig.xml" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-16x16.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-16x16.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-32x32.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-32x32.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon-96x96.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon-96x96.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\favicon.ico" afterPath="$PROJECT_DIR$/src/img/favicon.ico/favicon.ico" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\manifest.json" afterPath="$PROJECT_DIR$/src/img/favicon.ico/manifest.json" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-144x144.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-144x144.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-150x150.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-150x150.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-310x310.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-310x310.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\favicon.ico\ms-icon-70x70.png" afterPath="$PROJECT_DIR$/src/img/favicon.ico/ms-icon-70x70.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\keyboard_bgd.jpg" afterPath="$PROJECT_DIR$/src/img/keyboard_bgd.jpg" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\profile.jpg" afterPath="$PROJECT_DIR$/src/img/profile.jpg" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\profile_border.png" afterPath="$PROJECT_DIR$/src/img/profile_border.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\img\twitter.png" afterPath="$PROJECT_DIR$/src/img/twitter.png" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\skrollr.js" afterPath="$PROJECT_DIR$/src/js/skrollr.js" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\js\sudoku.js" afterPath="$PROJECT_DIR$/src/js/sudoku.js" />
-      <change type="MOVED" beforePath="D:\Users\Geordi\My Projects\Web\GeordiD_Mrk2\project\sudoku.html" afterPath="$PROJECT_DIR$/src/sudoku.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -394,8 +347,8 @@
         <option value="$PROJECT_DIR$/css/sudoku.css" />
         <option value="$PROJECT_DIR$/js/sudoku.js" />
         <option value="$PROJECT_DIR$/src/sudoku.html" />
-        <option value="$PROJECT_DIR$/src/.htaccess" />
         <option value="$PROJECT_DIR$/src/.htpasswd" />
+        <option value="$PROJECT_DIR$/src/.htaccess" />
       </list>
     </option>
   </component>

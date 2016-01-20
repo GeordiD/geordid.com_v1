@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "restricted area"
-AuthUserFile /src/.htpasswd
+AuthUserFile /var/www/geordid.com/src/.htpasswd
 require valid-user
