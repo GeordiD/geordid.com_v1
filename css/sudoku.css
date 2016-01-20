@@ -1,17 +1,13 @@
 
 #slide_solver {
     background-color: lightblue;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-#ss_content {
-    background-color: aqua;
-    margin: 0 auto;
-}
 
 #ss_header {
     margin-top: 0px;
-    padding: 30px;
+    padding: 50px;
     display: inline-block;
 }
 
@@ -24,4 +20,102 @@
 #ss_header h3 {
     margin-top: 0px;
     float: right;
+}
+
+#ss_inner_content {
+    clear: both;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+/*PUZZLE   ---------------------------------*/
+
+#ss_puzzle_area {
+    display: inline-block;
+}
+
+.ss_table {
+    border-collapse: collapse;
+    font-family: Calibri, sans-serif;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ss_puzzle colgroup, tbody {
+    border: solid medium;
+}
+
+#ss_puzzle td {
+    border: solid thin;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+}
+
+.inputcell {
+    border: none;
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ss_puzzle input:focus {
+    outline: none;
+}
+
+/*BUTTONS   ---------------------------------*/
+
+.ss_button_area {
+    overflow: hidden;
+}
+
+#ss_button_area_desktop {
+    display: none;
+    margin-left: 50px;
+    float: right;
+}
+
+#ss_button_area_mobile {
+    margin-top: 25px;
+}
+
+@media only screen
+    and (min-width : 1175px) {
+
+    #ss_button_area_desktop {
+        display: block;
+    }
+
+    #ss_button_area_mobile {
+        display: none;
+    }
+}
+
+.ss_btn_solve {
+    width: 100%;
+    min-width: 350px;
+    height: 125px;
+    font-size: x-large;
+    color: white;
+    background-color: dimgrey;
+    border: 0;
+    border-radius: 25px;
+
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+}
+
+.ss_btn_solve:hover {
+    color: dimgrey;
+    background-color: whitesmoke;
+    border: 2px #696969 solid;
+
+    -moz-box-shadow:    inset 0 0 12px #696969;
+    -webkit-box-shadow: inset 0 0 12px #696969;
+    box-shadow:         inset 0 0 12px #696969;
 }
