@@ -796,7 +796,8 @@
 <div id="slide_howitworks" class="bgd">
     how it works
     <?php
-    echo "hello world"
+    echo "hello there 3 ";
+    echo exec('/execute/SudokuSolver/ssapp 009.018.');
     ?>
 </div>
 
