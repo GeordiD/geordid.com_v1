@@ -49,6 +49,7 @@ function showAnswer(input) {
     $('.ss_btn_solve').each(function(i, obj) {
         obj.innerHTML = "Reset";
         obj.onclick = resetForm;
+        console.log("reset " + i);
     });
 }
 
@@ -73,6 +74,11 @@ function resetForm() {
 }
 
 function handleKeyUp(obj, keystroke) {
+
+    if(obj.readOnly == true) {
+        return;
+    }
+
     var keycode = keystroke.keyCode;
 
     if((keycode >= 49 && keycode <=57) ||
