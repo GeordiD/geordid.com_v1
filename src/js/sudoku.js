@@ -11,7 +11,14 @@ function handleSolvePress() {
         }
     });
 
-    console.log(output);
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if(xmlhttp == 4 && xmlhttp.status == 200) {
+            console.log(xmlhttp.responseText);
+        }
+    }
+    xmlhttp.open("GET", "/src/php/sudokuserver.php?q=" + output, true);
+    xmlhttp.send();
 }
 
 function handleKeyUp(obj, keystroke) {
@@ -141,7 +148,7 @@ function handleKeyDown(obj, keystroke) {
 }
 
 function handleFocus(obj) {
-    if(obj.value.length > 0) {
+    if (obj.value.length > 0) {
         obj.setSelectionRange(0, obj.value.length);
     }
 }
