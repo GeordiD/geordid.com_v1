@@ -28,9 +28,14 @@ function handleSolvePress() {
 function showAnswer(input) {
 
     //check if valid answer;
-    if(input == "") {
+    if(input == "US") {
         //non valid
-        alert("This puzzle is unsolvable. Make sure it was entered correctly");
+        alert("This puzzle is unsolvable");
+        return;
+    }
+
+    if(input == "INVALID") {
+        alert("The puzzle you entered cannot be solved because the set cells break the rules of the game.  Make sure there are no duplicate numbers in each box, row, and column.");
         return;
     }
 
