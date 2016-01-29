@@ -5,7 +5,7 @@
 function handleSolvePress() {
     var output = "";
 
-    $('.inputcell').each(function(i, obj) {
+    $('.cell').each(function(i, obj) {
         if(obj.value) {
             output += obj.name + obj.value + ".";
         }
