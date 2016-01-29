@@ -15,13 +15,61 @@ function handleSolvePress() {
     xmlhttp.onreadystatechange = function() {
         console.log("recieve;\n");
         if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            console.log("other function");
-            console.log(xmlhttp.responseText);
+            if(xmlhttp.responseText != "") {
+                showAnswer(xmlhttp.responseText);
+            }
         }
     }
     xmlhttp.open("GET", "php/sudokuserver.php?q=" + output, true);
     console.log("sending " + output);
     xmlhttp.send();
+}
+
+function showAnswer(input) {
+    //disable all the answers
+    $('.cell').each(function (i, obj) {
+        obj.readOnly = true;
+    });
+
+    //fill table
+    buffer = "";
+    for(x = 0; x < input.length; x++) {
+        c = input.charAt(x);
+        if(c == ':') {
+            return;
+        } else if(c == '.') {
+            fillCell(buffer);
+            buffer = "";
+        } else {
+            buffer += c;
+        }
+    }
+
+    //change button
+    $('.ss_btn_solve').each(function(i, obj) {
+        obj.innerHTML = "Reset";
+        obj.onclick = resetForm;
+    });
+}
+
+function fillCell(str) {
+    if(str.length != 3) {
+        return;
+    }
+
+    name = str.charAt(0) + str.charAt(1);
+    document.getElementsByName(name)[0].value = str.charAt(2);
+}
+
+function resetForm() {
+    $('.cell').each(function (i, obj) {
+        obj.readOnly = false;
+    });
+
+    $('.ss_btn_solve').each(function(i, obj) {
+        obj.innerHTML = "Solve";
+        obj.onclick = handleSolvePress;
+    });
 }
 
 function handleKeyUp(obj, keystroke) {
