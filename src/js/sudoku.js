@@ -36,7 +36,7 @@ function showAnswer(input) {
     for(x = 0; x < input.length; x++) {
         c = input.charAt(x);
         if(c == ':') {
-            return;
+            break;
         } else if(c == '.') {
             fillCell(buffer);
             buffer = "";
