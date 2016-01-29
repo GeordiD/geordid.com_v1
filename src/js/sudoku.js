@@ -13,11 +13,14 @@ function handleSolvePress() {
 
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
-        if(xmlhttp == 4 && xmlhttp.status == 200) {
+        console.log("recieve;\n");
+        if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            console.log("other function");
             console.log(xmlhttp.responseText);
         }
     }
-    xmlhttp.open("GET", "/src/php/sudokuserver.php?q=" + output, true);
+    xmlhttp.open("GET", "php/sudokuserver.php?q=" + output, true);
+    console.log("sending " + output);
     xmlhttp.send();
 }
 
