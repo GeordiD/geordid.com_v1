@@ -26,6 +26,14 @@ function handleSolvePress() {
 }
 
 function showAnswer(input) {
+
+    //check if valid answer;
+    if(input == "") {
+        //non valid
+        alert("This puzzle is unsolvable. Make sure it was entered correctly");
+        return;
+    }
+
     //disable all the answers
     $('.cell').each(function (i, obj) {
         obj.readOnly = true;
@@ -65,6 +73,7 @@ function fillCell(str) {
 function resetForm() {
     $('.cell').each(function (i, obj) {
         obj.readOnly = false;
+        obj.value = "";
     });
 
     $('.ss_btn_solve').each(function(i, obj) {
