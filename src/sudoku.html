@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="css/master.css"/>
 <link rel="stylesheet" href="css/sudoku.css"/>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/sudoku.js"></script>
 
 </head>
@@ -796,11 +796,72 @@
 </div>
 
 <div id="slide_howitworks" class="bgd">
-    how it works
+    <div id="hiw_site_one" class="hiw_slide" style="padding-top: 30px;">
+        <div style="text-align: center; margin-bottom: 100px; font-size: 24pt"><h1>How it Works</h1></div>
+        <img class="hiw_slide_pic float-left" src="img/ss_site_one.PNG">
+        <div class="hiw_slide_text">
+            <h2>Cilent Side</h2>
+            <p>
+                After the user has inputted his/her puzzle and pressed 'Solve', a JavaScript function
+                iterates through each cell in the table looking for filled cells.  Any filled cells
+                are encoded into strings and concatenated into a master string with the other filled
+                cells.  Once all the filled cells are added to this master string, the string
+                is sent to a PHP script on the server via an AJAX request.  The PHP script simply
+                calls the C++ program and sends back the output.
+            </p>
+        </div>
+    </div>
+    <div id="hiw_parser" class="hiw_slide">
+        <img class="hiw_slide_pic float-right" src="img/ss_parsing_string.PNG">
+        <div class="hiw_slide_text">
+            <h2>Parser</h2>
+            <p>
+                The first step of the C++ program's solving process is to parse the encoded puzzle
+                string into a Table object that the C++ algorithm can more easily use.  The string,
+                similar to the one on the right, is very simple to break down.  The first two numbers
+                in each group are the row and column of the cell.  The third number
+                is the cell's value.  A dot separates each cell.  The parser simply iterates through
+                the string, stopping at each dot to add the cell to the Table object.
+            </p>
+        </div>
+        <div id="hiw_arrow_one" class="arrow-down"></div>
+    </div>
+    <div id="hiw_alg" class="hiw_slide">
+        <img class="hiw_slide_pic float-left" src="img/alg.PNG">
+        <div class="hiw_slide_text">
+            <h2>Solving Algorithm</h2>
+            <p>
+                Now that we have successfully replicated the table the user submitted, the solving
+                algorithm can begin it's work.  The function starts at the first unfilled cell and
+                writes a 1 in it.  If that value is legal, it moves onto the next cell and repeats
+                the process.  If the value is illegal, it iterates the value until the value is
+                legal (in which case it'd move forward) or the value is greater than nine.  In this
+                case, the function moves back to the last cell and continues to iterate it's value,
+                repeating the process as before.  Eventually,
+                the function will move through all the cells and the puzzle will be solved.  You can
+                find a more in depth discussion of this algorithm
+                <a href="http://bit.ly/20avXSz" target="_blank">here.</a>
+            </p>
+        </div>
+        <div id="hiw_arrow_two" class="arrow-down"></div>
+    </div>
+    <div id="hiw_site_two" class="hiw_slide">
+        <img class="hiw_slide_pic float-right" src="img/ss_site_two.PNG">
+        <div class="hiw_slide_text">
+            <h2>Back to Client</h2>
+            <p>
+                The C++ program will return an encoded version of the solved puzzle.  The PHP script
+                sends this string back to the client, which uses a JavaScript function to fill the
+                table.  We have successfully solved a Sudoku Puzzle!
+                <a href="http://i.giphy.com/DuWay0MoeQxWM.gif" target="_blank">High-five!</a>
+            </p>
+        </div>
+        <div id="hiw_arrow_three" class="arrow-down"></div>
+    </div>
 </div>
 
-<div id="slide_aboutalg" class="bgd">
-    about alg
+<div id="back" class="bgd">
+    <a href="http://geordid.com">Back to GeordiD.com</a>
 </div>
 
 </body>

@@ -46,6 +46,14 @@ html body {
     position: static;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .invisible {
     opacity: 0;
 }
