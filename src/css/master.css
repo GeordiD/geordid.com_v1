@@ -62,6 +62,10 @@ html body {
     opacity: 1;
 }
 
+.circle-img {
+    border-radius: 50%;
+}
+
 /*Begin centering*/
 .block {
     text-align: center;
@@ -70,7 +74,6 @@ html body {
 .block:before {
     content: '';
     display: inline-block;
-    height: 100%;
     vertical-align: middle;
     margin-right: -0.25em; /* Adjusts for spacing */
 
@@ -84,9 +87,17 @@ html body {
     vertical-align: middle;
     padding: 10px 15px;
     border: #a0a0a0 solid 1px;
-    background: #f5f5f5;
 }
 /*End centering*/
+
+/*Other centering method*/
+/*Parent must be position:relative*/
+.center-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*FONTS*/
 

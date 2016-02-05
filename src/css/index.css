@@ -2,7 +2,7 @@
 
 /*Css goes here*/
 
-#slide1 {
+#slide_welcome {
     background-image:url("../img/keyboard_bgd.jpg");
     min-height: 100vh;
 }
@@ -63,7 +63,7 @@
 
 /* SECOND SLIDE */
 
-#slide2 {
+#slide_about {
     background-color: #ffffed;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -86,9 +86,71 @@
     margin-top: 50px;
 }
 
-/* SLIDE 3 */
+/* SHOWCASE SLIDE CLASSES */
 
-#slide3 {
+.showcase_slide {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+
+.s_less {
+    text-align: center;
+    color: white;
+    visibility: hidden;
+
+    z-index: 0;
+}
+
+.s_less h1 {
+    font-size: 50pt;
+    margin-bottom: 30px;
+}
+
+.s_less_btn {
+    margin: 50px 0 50px 0;
+
+    width: 175px;
+    height: 75px;
+    border-radius: 25px;
+    border: 5px white solid;
+    background-color: transparent;
+
+    color: white;
+    font-size: 14pt;
+}
+
+.s_less_btn:hover {
+    color: dimgrey;
+    border-color: dimgrey;
+}
+
+.s_less_btn:active,
+.s_less_btn:focus,
+.s_less_btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+.s_more {
+    z-index: 1;
+}
+
+
+/*CUSTOM SHOWCASE SLIDES*/
+
+#slide_mtlife {
+    background-color: #A09ABC;
+}
+
+/* Contact Slide */
+
+#slide_contact {
     background-image: url("../img/contact_bgd.jpg");
     overflow: hidden;
 }
