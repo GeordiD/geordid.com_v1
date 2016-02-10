@@ -57,14 +57,14 @@ function showMorePress(btn) {
 
     //Animate images
     $(moreRoot).find('.s_more_images')
-        .delay(1000).animate(
+        .delay(400).animate(
         {right: '10%'}, {
             duration: 1000,
             easing: 'easeOutCirc'});
 
     //Animate content
     $(moreRoot).find('.s_more_content')
-        .delay(1500).animate(
+        .delay(900).animate(
         {left: '10%'}, {
             duration: 1000,
             easing: 'easeOutCirc'});

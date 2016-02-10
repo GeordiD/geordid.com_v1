@@ -253,7 +253,7 @@
 
 /*MTLIFE*/
 #slide_mtlife {
-    background-color: #A09ABC;
+    background-image: url("../img/mtlife_bgd.jpg");
 }
 
 #slide_mtlife_phone {
@@ -262,21 +262,23 @@
 
 /*SUDOKU*/
 #slide_sudoku {
-    background-color: darkseagreen;
+    background-image: url("../img/slide_sudoku_bgd.jpg");
 }
 
 /* Contact Slide */
 
 #slide_contact {
-    background-image: url("../img/contact_bgd.jpg");
+    background-image: url("../img/paper_background_1080p.jpg");
+    /*background-color: white;*/
     overflow: hidden;
+    background-attachment: scroll;
+    min-height: 100vh;
 }
 
 #contact_body {
-    padding: 75px;
     text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     border-radius: 20px;
     -webkit-border-radius: 20px;
     margin-top: 250px;
@@ -284,15 +286,21 @@
 }
 
 .contact_questions {
-    font-size: 30pt;
-    margin: 25px 0 25px 0;
+    font-size: 60pt;
+    font-family: robot-light;
+    margin: 25px 0 100px 0;
+}
+
+.contact_text {
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 #email {
-    margin-top: 100px;
     font-size: 40pt;
+    font-family: robot-light;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
