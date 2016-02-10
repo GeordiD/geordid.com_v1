@@ -171,15 +171,21 @@
 }
 
 .s_more_images .tall {
-    max-height: 150%;
+    max-height: 60%;
 }
-
 
 .s_more_img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.s_more_img_right {
+    right: 15%;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
 }
 
 .s_img_split_phone {
@@ -224,6 +230,17 @@
     left: -125%;
 }
 
+.s_more_content h1 {
+    margin-bottom: 10px;
+}
+
+.s_more_content h3 {
+    margin-top: 0;
+    font-size: 12pt;
+    font-family: robot-light;
+    margin-bottom: 30px;
+}
+
 .s_front {
     z-index: 1;
 }
@@ -241,6 +258,11 @@
 
 #slide_mtlife_phone {
 
+}
+
+/*SUDOKU*/
+#slide_sudoku {
+    background-color: darkseagreen;
 }
 
 /* Contact Slide */
