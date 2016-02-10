@@ -39,91 +39,113 @@
 </head>
 
 <body>
-    <div id="slide_welcome" class="bgd">
-        <div id="header_content" class="center-div">
+<div id="slide_welcome" class="bgd">
+    <div id="header_content" class="center-div">
 
-            <div class="profile_div center-div-hor">
-                <img id="header_profile" class="profile_pic pos-fixed circle-img" src="src/img/profile.jpg">
+        <div class="profile_div center-div-hor">
+            <img id="header_profile" class="profile_pic pos-fixed circle-img" src="src/img/profile.jpg">
+        </div>
+
+        <div id="header_fake_profile" class="fake-profile center-div-hor"></div>
+
+        <div id="name" class="center-text">
+            Geordi Dosher</div>
+
+        <div id="description" class="center-text">
+            Developer. Computer Nerd. Human.</div>
+
+        <div id="home_btn_row" class="center-div-hor">
+            <a href="#slide2" id="home_res_btn" class="btn">Grab Resume</a>
+
+            <a href="#slide3" id="home_con_btn" class="btn">Get in Touch</a>
+        </div>
+
+    </div>
+</div>
+
+<div id="slide_about" class="bgd">
+    <div id="about_body" class="center-div">
+        <div id="about_header">
+            About Me
+        </div>
+        <a href="src/docs/Dosher_Resume_2015.pdf" id="about_dwn_res" class="btn" target="_blank">Download<br>Printable<br>Resume</a>
+        <div class="profile_div center-div-hor">
+            <img id="about_profile" class="profile_pic circle-img" src="src/img/profile.jpg"/>
+        </div>
+        <p id="about_text"><t/>&#8195Hi.  My name's Geordi Dosher, and I'm a
+            mobile/game/web developer.  I love writing code to create amazing
+            products.  Whether it's a to-do list app that schedules itself or a
+            city-builder slash RPG slash action game, I've always approached
+            projects with enthusiasm and tackled problems with tenacity.  I'm
+            a quick learner having gone through deep dives on multiple topics
+            --3D modeling, Android development, graphic design, jazz music.
+            Right now, I'm powering through a computer science degree while
+            working on a couple other awesome projects to gain experience.
+            Whatever happens next, I'm ready!</p>
+    </div>
+</div>
+
+<div id="slide_mtlife" class="bgd showcase_slide">
+
+    <div class="s_less center-two s_front">
+        <h1>Planning Life</h1>
+        The to-do list that schedules itself.<br>
+        <button class="s_btn" onclick="showMorePress(this)">Learn More</button>
+    </div>
+
+    <div class="s_more center-two">
+        <div class="s_more_left">
+            <div class="s_more_images">
+                <div class="s_more_images_inside">
+                    <img src="src/img/blank_macbook.png"
+                         id="slide_mtlife_laptop" class="s_more_img s_img_split_lap wide"/>
+
+                    <img src="src/img/blank_android.png"
+                         id="slide_mtlife_phone" class="s_more_img s_img_split_phone"/>
+                </div>
+
             </div>
-
-            <div id="header_fake_profile" class="fake-profile center-div-hor"></div>
-
-            <div id="name" class="center-text">
-                Geordi Dosher</div>
-
-            <div id="description" class="center-text">
-                Developer. Computer Nerd. Human.</div>
-
-            <div id="home_btn_row" class="center-div-hor">
-                <a href="#slide2" id="home_res_btn" class="btn">Grab Resume</a>
-
-                <a href="#slide3" id="home_con_btn" class="btn">Get in Touch</a>
+        </div>
+        <div class="s_more_centerline"></div>
+        <div class="s_more_right">
+            <div class="s_more_content">
+                <h2>PlanningLife</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce tortor nisi, scelerisque non nisl sit amet, aliquam
+                    porta est. Suspendisse commodo mi ut diam viverra semper. Quisque
+                    bibendum viverra tortor sit amet tincidunt. Vestibulum finibus
+                    gravida vehicula. Sed vestibulum pulvinar ultricies. Nunc
+                    et maximus purus, id cursus libero. Pellentesque ac enim
+                    sit amet est accumsan finibus ut feugiat purus. Vestibulum
+                    auctor hendrerit dui quis mattis.</p>
+                <button class="s_btn" onclick="window.open('http://google.com', '_blank')">Go to Project</button>
             </div>
-
-
 
         </div>
     </div>
+</div>
 
-    <div id="slide_about" class="bgd">
-        <div id="about_body" class="center-div">
-            <div id="about_header">
-                About Me
-            </div>
-            <a href="src/docs/Dosher_Resume_2015.pdf" id="about_dwn_res" class="btn" target="_blank">Download<br>Printable<br>Resume</a>
-            <div class="profile_div center-div-hor">
-                <img id="about_profile" class="profile_pic circle-img" src="src/img/profile.jpg"/>
-            </div>
-            <p id="about_text"><t/>&#8195Hi.  My name's Geordi Dosher, and I'm a
-                mobile/game/web developer.  I love writing code to create amazing
-                products.  Whether it's a to-do list app that schedules itself or a
-                city-builder slash RPG slash action game, I've always approached
-                projects with enthusiasm and tackled problems with tenacity.  I'm
-                a quick learner having gone through deep dives on multiple topics
-                --3D modeling, Android development, graphic design, jazz music.
-                Right now, I'm powering through a computer science degree while
-                working on a couple other awesome projects to gain experience.
-                Whatever happens next, I'm ready!</p>
+<div id="slide_contact" class="bgd">
+    <div id="contact_body" class="center-div">
+        <p class="contact_questions">Have a great idea?</p>
+        <p class="contact_questions">Need help getting it off the ground?</p>
+        <p class="contact_questions">Let's Talk.</p>
+
+        <div>
+            <p><a href="mailto:geordi.dosher@gmail.com" id="email" target="_blank">geordi.dosher@gmail.com</a></p>
         </div>
     </div>
+</div>
 
-    <div id="slide_mtlife" class="bgd showcase_slide">
-
-        <div class="s_less center-two">
-                <h1>Planning Life</h1>
-                The to-do list that schedules itself.<br>
-                <button class="s_less_btn">Learn More</button>
-        </div>
-
-        <div class="s_more center-two">
-            <div class="s_more_left">
-
-            </div>
-            <div class="s_more_right">
-
-            </div>
-        </div>
-    </div>
-
-    <div id="slide_contact" class="bgd">
-        <div id="contact_body" class="center-div">
-            <p class="contact_questions">Have a great idea?</p>
-            <p class="contact_questions">Need help getting it off the ground?</p>
-            <p class="contact_questions">Let's Talk.</p>
-
-            <div>
-                <p><a href="mailto:geordi.dosher@gmail.com" id="email" target="_blank">geordi.dosher@gmail.com</a></p>
-            </div>
-        </div>
-    </div>
-
-     <!--for skrollr-->
-    <!--<script src="js/skrollr.js"></script>
-    <script>
-        var s = skrollr.init();
-    </script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="src/js/index.js"></script>
+<!--for skrollr-->
+<!--<script src="js/skrollr.js"></script>
+<script>
+    var s = skrollr.init();
+</script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="src/js/index.js"></script>
 </body>
 
 </html>

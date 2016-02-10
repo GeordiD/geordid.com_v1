@@ -98,9 +98,8 @@
 .s_less {
     text-align: center;
     color: white;
-    visibility: hidden;
-
     z-index: 0;
+    /*display: none;*/
 }
 
 .s_less h1 {
@@ -108,7 +107,7 @@
     margin-bottom: 30px;
 }
 
-.s_less_btn {
+.s_btn {
     margin: 50px 0 50px 0;
 
     width: 175px;
@@ -121,31 +120,127 @@
     font-size: 14pt;
 }
 
-.s_less_btn:hover {
+.s_btn:hover {
     color: dimgrey;
     border-color: dimgrey;
 }
 
-.s_less_btn:active,
-.s_less_btn:focus,
-.s_less_btn.active {
+.s_btn:active,
+.s_btn:focus,
+.s_btn.active {
     background-image: none;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-
+/*MORE ======*/
 
 .s_more {
-    z-index: 1;
+    width: 80%;
+    height: 90%;
+    color: white;
+    text-align: center;
+    position:relative;
+    display: none;
+}
+
+.s_more_left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    overflow: hidden;
+}
+
+.s_more_images {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+
+    right: -100%; /*for animation*/
+}
+
+.s_more_images_inside {
+    position: relative;
+    height: 100%;
+}
+
+.s_more_images .wide {
+    max-width: 100%;
+}
+
+.s_more_images .tall {
+    max-height: 150%;
 }
 
 
+.s_more_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.s_img_split_phone {
+    /*left: auto;
+    right: 0;
+    top: auto;
+    bottom: -10%;
+    transform: none;*/
+    transform: translate(100%);
+    width: 20%;
+    min-width: 90px;
+    height: auto;
+}
+
+.s_more_centerline {
+    display: inline-block;
+    height: 50%;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.s_more_right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.s_more_content {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    transform: translateY(-50%);
+    word-wrap: break-word;
+
+    /*For animation*/
+    left: -125%;
+}
+
+.s_front {
+    z-index: 1;
+}
+
+.s_back {
+    z-index: 0;
+}
+
 /*CUSTOM SHOWCASE SLIDES*/
 
+/*MTLIFE*/
 #slide_mtlife {
     background-color: #A09ABC;
+}
+
+#slide_mtlife_phone {
+
 }
 
 /* Contact Slide */
@@ -183,7 +278,7 @@
 
 a.btn {
     text-align: center;
-    background-color: #AFBE8F;
+    background-color: #9fae80;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     color: white;
