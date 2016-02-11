@@ -4,11 +4,31 @@
 
 $(document).ready(function() {
     setAllShowcaseHeights();
-})
+});
 
 $(window).resize(function() {
     setAllShowcaseHeights();
-})
+
+    makeSureShowcaseElementsAreCentered();
+});
+
+/*
+* Centers showcase elements when going from desktop to mobile
+* */
+function makeSureShowcaseElementsAreCentered() {
+    var bool = $(window).width() < 750;
+
+    $('.showcase_slide').each(function () {
+        if(bool) {
+            $(this).find('.s_more_images').css('right', 'auto');
+            $(this).find('.s_more_content').css('left', 'auto');
+        } else {
+            $(this).find('.s_more_images').css('right', '10%');
+            $(this).find('.s_more_content').css('left', '10%');
+        }
+
+    });
+}
 
 /*
 * Make sure each slide's minimum height encompasses
@@ -28,9 +48,19 @@ function setAllShowcaseHeights() {
 }
 
 function setIndShowcaseHeight(obj, animate) {
+    var fit;
+    if($(window).width() > 750) {
+        fit = $(obj).find('.s_more_content').outerHeight();
+    } else {
+        fit = $(obj).find('.s_more_left').outerHeight() +
+                $(obj).find('.s_more_right').outerHeight();
+        fit = (fit * 100) / 90; //to take care of 90% height in slides
+    }
+
+
     var value = Math.max(
         $(window).height(),
-        $(obj).find('.s_more_content').outerHeight()
+        fit
     );
     if(animate) {
         $(obj).animate(
@@ -43,7 +73,6 @@ function setIndShowcaseHeight(obj, animate) {
     } else {
         $(obj).css('height', value);
     }
-
 }
 
 /*
@@ -60,17 +89,24 @@ function showMorePress(btn) {
     var moreRoot = $(slidePar).find('.s_more');
     $(moreRoot).fadeIn(600);
 
-    //Animate images
-    $(moreRoot).find('.s_more_images')
-        .delay(400).animate(
-        {right: '10%'}, {
-            duration: 1000,
-            easing: 'easeOutCirc'});
+    //Check if phone or not
+    if($(window).width() > 750) {
+        //Animate images
+        var images = $(moreRoot).find('.s_more_images');
+        images.css('right', '-100%');
+        images.delay(400).animate(
+            {right: '10%'}, {
+                duration: 1000,
+                easing: 'easeOutCirc'});
 
-    //Animate content
-    $(moreRoot).find('.s_more_content')
-        .delay(900).animate(
-        {left: '10%'}, {
-            duration: 1000,
-            easing: 'easeOutCirc'}, setIndShowcaseHeight(slidePar, true));
+        //Animate content
+        var content = $(moreRoot).find('.s_more_content');
+        content.css('left', '-125%');
+        content.delay(900).animate(
+            {left: '10%'}, {
+                duration: 1000,
+                easing: 'easeOutCirc'});
+    }
+
+    setIndShowcaseHeight(slidePar, true);
 }
