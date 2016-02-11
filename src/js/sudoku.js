@@ -20,7 +20,7 @@ function handleSolvePress() {
             }
         }
     }
-    xmlhttp.open("GET", "php/sudokuserver.php?q=" + output, true);
+    xmlhttp.open("GET", "src/php/sudokuserver.php?q=" + output, true);
     console.log("sending " + output);
     xmlhttp.send();
 }
