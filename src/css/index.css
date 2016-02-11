@@ -375,9 +375,7 @@
 #contact_body {
     text-align: center;
     color: black;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
+    width: 60%;
 }
 
 .contact_questions {
@@ -396,6 +394,14 @@
     font-family: robot-light;
     text-decoration: none;
     color: black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width : 950px) {
+    #contact_body {
+        width: 90%;
+    }
 }
 
 
