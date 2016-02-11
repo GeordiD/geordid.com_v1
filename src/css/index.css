@@ -5,31 +5,7 @@
 #slide_welcome {
     background-image:url("../img/keyboard_bgd.jpg");
     min-height: 100vh;
-}
-
-.profile_div {
-    width: 300px;
     position: relative;
-}
-
-#header_profile {
-    margin-top: 150px;
-}
-
-#header_fake_profile {
-    padding-top: 150px;
-}
-
-.profile_pic {
-    height:300px;
-    width:300px;
-    z-index: 100;
-}
-
-.fake-profile {
-    height: 300px;
-    width: 300px;
-    position: static;
 }
 
 #name {
@@ -49,32 +25,48 @@
 #home_btn_row {
     max-width: 700px;
     text-align: center;
-    padding-bottom: 150px;
 }
 
-#home_res_btn {
-    margin-top: 2rem;
-    margin-right: 3rem;
+#home_btn_row .btn {
+    margin-top: 32px;
 }
 
-#home_con_btn {
-    margin-top: 2rem;
+/*CSS for DESKTOP*/
+@media only screen
+    and (min-width : 877px) {
+
+    #home_res_btn {
+        margin-right: 48px;
+    }
+
+    #home_des_br,
+    #home_btn_br {
+        display: none;
+    }
 }
+
 
 /* SECOND SLIDE */
 
 #slide_about {
     background-color: #ffffed;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    padding-left: 15px;
-    padding-right:15px;
+    padding: 75px 50px;
 }
 
 #about_header {
     font-family: robot-bold;
     font-size: 30pt;
     float: left;
+}
+
+#profile_div {
+    width: 300px;
+    position: relative;
+}
+
+#profile_div img {
+    height: 300px;
+    width: 300px;
 }
 
 #about_dwn_res {
@@ -86,12 +78,35 @@
     margin-top: 50px;
 }
 
+/*CSS for phone*/
+@media only screen
+    and (max-width : 850px) {
+
+    #slide_about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #profile_div img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #profile_div {
+        width: 200px;
+    }
+
+}
+
 /* SHOWCASE SLIDE CLASSES */
 
 .showcase_slide {
     position: relative;
     min-height: 100vh;
-    padding: 50px;
+    height: 100%;
+    /*overflow: auto;*/
+    /*display: block;*/
+    /*padding: 50px;*/
 }
 
 
@@ -109,10 +124,9 @@
 
 .s_btn {
     margin: 50px 0 50px 0;
-
-    width: 175px;
-    height: 75px;
-    border-radius: 25px;
+    display: inline-block;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
     border: 5px white solid;
     background-color: transparent;
 
@@ -123,6 +137,7 @@
 .s_btn:hover {
     color: dimgrey;
     border-color: dimgrey;
+    cursor: pointer;
 }
 
 .s_btn:active,
@@ -139,10 +154,12 @@
 .s_more {
     width: 80%;
     height: 90%;
+    /*min-height: 600px;*/
     color: white;
     text-align: center;
     position:relative;
     display: none;
+    /*padding: 40px 0;*/
 }
 
 .s_more_left {
@@ -225,6 +242,7 @@
     width: 90%;
     transform: translateY(-50%);
     word-wrap: break-word;
+    padding: 20px 0;
 
     /*For animation*/
     left: -125%;
@@ -273,6 +291,7 @@
     overflow: hidden;
     background-attachment: scroll;
     min-height: 100vh;
+    position: relative;
 }
 
 #contact_body {
@@ -281,18 +300,16 @@
     /*background-color: rgba(0, 0, 0, 0.5);*/
     border-radius: 20px;
     -webkit-border-radius: 20px;
-    margin-top: 250px;
-    margin-bottom: 250px;
 }
 
 .contact_questions {
     font-size: 60pt;
     font-family: robot-light;
-    margin: 25px 0 100px 0;
+    margin: 25px 0 60px 0;
 }
 
 .contact_text {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     text-align: center;
 }
 

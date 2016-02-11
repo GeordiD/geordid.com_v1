@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -40,26 +41,16 @@
 
 <body>
 <div id="slide_welcome" class="bgd">
-    <div id="header_content" class="center-div">
-
-        <div class="profile_div center-div-hor">
-            <img id="header_profile" class="profile_pic pos-fixed circle-img" src="src/img/profile.jpg">
-        </div>
-
-        <div id="header_fake_profile" class="fake-profile center-div-hor"></div>
-
+    <div id="header_content" class="center-two">
         <div id="name" class="center-text">
             Geordi Dosher</div>
-
         <div id="description" class="center-text">
-            Developer. Computer Nerd. Human.</div>
-
+            Developer. Computer&nbsp;Nerd. <br id="home_des_br"/>Human.</div>
         <div id="home_btn_row" class="center-div-hor">
-            <a href="#slide2" id="home_res_btn" class="btn">Grab Resume</a>
-
-            <a href="#slide3" id="home_con_btn" class="btn">Get in Touch</a>
+            <a href="#slide_about" id="home_res_btn" class="btn">Grab Resume</a>
+            <br id="home_btn_br"/>
+            <a href="#slide_contact" id="home_con_btn" class="btn">Get in Touch</a>
         </div>
-
     </div>
 </div>
 
@@ -69,8 +60,8 @@
             About Me
         </div>
         <a href="src/docs/Dosher_Resume_2015.pdf" id="about_dwn_res" class="btn" target="_blank">Download<br>Printable<br>Resume</a>
-        <div class="profile_div center-div-hor">
-            <img id="about_profile" class="profile_pic circle-img" src="src/img/profile.jpg"/>
+        <div id="profile_div" class="center-div-hor">
+            <img src="src/img/profile.jpg" class="circle-img"/>
         </div>
         <p id="about_text"><t/>&#8195Hi.  My name's Geordi Dosher, and I'm a
             mobile/game/web developer.  I love writing code to create amazing
@@ -120,7 +111,6 @@
                 </p>
                 <button class="s_btn" onclick="window.open('http://geordi-dosher.squarespace.com', '_blank')">Go to Project</button>
             </div>
-
         </div>
     </div>
 </div>
@@ -161,7 +151,7 @@
 </div>
 
 <div id="slide_contact" class="bgd">
-    <div id="contact_body" class="center-div">
+    <div id="contact_body" class="center-two">
         <p class="contact_questions">Your project here?</p>
         <p class="contact_text">Do you have a cool idea that you need fleshed out into a
             living, breathing product?  Or maybe one that's already in development but

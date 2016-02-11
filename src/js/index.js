@@ -3,42 +3,47 @@
  */
 
 $(document).ready(function() {
-    calculateHeadProfilePicVisibility()
+    setAllShowcaseHeights();
 })
 
-$(window).scroll(function() {
-    calculateHeadProfilePicVisibility();
+$(window).resize(function() {
+    setAllShowcaseHeights();
 })
 
-function calculateHeadProfilePicVisibility() {
-    var headpic = $("#header_profile");
-    var aboutpic = $("#about_profile");
+/*
+* Make sure each slide's minimum height encompasses
+*   it's more text.
+*
+* When switching from less to more, pass true so that
+* we can animate the growing div
+*
+* @param 'more' use when switching from less to more.
+* */
+function setAllShowcaseHeights() {
+    $('.showcase_slide').each(function () {
+        if($(this).find('.s_less').css('display') == 'none') {
+            setIndShowcaseHeight(this, false);
+        }
+    })
+}
 
-    var headtop = topPosFromTop(headpic);
-    var abouttop = topPosFromTop(aboutpic);
-
-    if (headtop > abouttop) {
-        //header image is below about image, so hide header
-        headpic.removeClass("visible");
-        headpic.addClass("invisible");
-        aboutpic.removeClass("invisible");
-        aboutpic.addClass("visible");
+function setIndShowcaseHeight(obj, animate) {
+    var value = Math.max(
+        $(window).height(),
+        $(obj).find('.s_more_content').outerHeight()
+    );
+    if(animate) {
+        $(obj).animate(
+            {height : value + "px"},
+            {
+                duration: 500,
+                easing: "easeInOutSine"
+            }
+        );
     } else {
-
-        //header is above, so hide about
-        headpic.addClass("visible");
-        headpic.removeClass("invisible");
-        aboutpic.addClass("invisible");
-        aboutpic.removeClass("visible");
+        $(obj).css('height', value);
     }
-}
 
-function topPosFromTop(element) {
-    return (element.offset().top - $(window).scrollTop());
-}
-
-function botPosFromTop(element) {
-    return topPosFromTop(element) + element.height();
 }
 
 /*
@@ -67,5 +72,5 @@ function showMorePress(btn) {
         .delay(900).animate(
         {left: '10%'}, {
             duration: 1000,
-            easing: 'easeOutCirc'});
+            easing: 'easeOutCirc'}, setIndShowcaseHeight(slidePar, true));
 }

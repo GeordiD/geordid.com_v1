@@ -56,6 +56,7 @@ html body {
 
 .invisible {
     opacity: 0;
+    z-index: -100;
 }
 
 .visible {
