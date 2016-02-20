@@ -4,13 +4,35 @@
 
 $(document).ready(function() {
     setAllShowcaseHeights();
+    fixContactHeight();
 });
 
 $(window).resize(function() {
     setAllShowcaseHeights();
+    fixContactHeight();
 
     makeSureShowcaseElementsAreCentered();
 });
+
+/*
+Fix contact height
+ */
+function fixContactHeight() {
+    var container = $('#slide_contact');
+    var content = $('#contact_body');
+
+    console.log("container = " + container.height() + " - content = " + content.height());
+
+    if(container.height() < content.height()) {
+        container.css('height', content.height());
+    } else {
+        container.css('height', 'auto');
+        if(container.height() < content.height()) {
+            container.css('height', content.height());
+        }
+    }
+}
+
 
 /*
 * Centers showcase elements when going from desktop to mobile
@@ -26,7 +48,6 @@ function makeSureShowcaseElementsAreCentered() {
             $(this).find('.s_more_images').css('right', '10%');
             $(this).find('.s_more_content').css('left', '10%');
         }
-
     });
 }
 

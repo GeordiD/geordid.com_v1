@@ -365,9 +365,8 @@
 
 #slide_contact {
     background-image: url("../img/paper_background_1080p.jpg");
-    /*background-color: white;*/
-    overflow: hidden;
     background-attachment: scroll;
+    overflow: hidden;
     min-height: 100vh;
     position: relative;
 }
@@ -390,7 +389,7 @@
 }
 
 #email {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: robot-light;
     text-decoration: none;
     color: black;

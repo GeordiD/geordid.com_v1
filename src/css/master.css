@@ -6,8 +6,12 @@ html body {
 
 .bgd {
     width: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background: fixed center;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /*Frequently used classes*/
@@ -61,6 +65,10 @@ html body {
 
 .visible {
     opacity: 1;
+}
+
+.clear {
+    clear: both;
 }
 
 .circle-img {
