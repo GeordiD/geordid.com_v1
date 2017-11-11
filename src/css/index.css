@@ -343,6 +343,15 @@
         margin: 25px 0 50px;
     }
 
+    #slide_mars_pic {
+        /*border: 10px solid grey;*/
+        max-height: 100%;
+        right: auto;
+        left: auto;
+        top: auto;
+        transform: none;
+    }
+
 }
 
 /*CUSTOM SHOWCASE SLIDES*/
@@ -354,6 +363,16 @@
 
 #slide_mtlife_phone {
 
+}
+
+/*MARS*/
+#slide_mars {
+    background-image: url("../img/mars_zoom.jpg");
+}
+
+#slide_mars_pic {
+    /*border: 10px solid grey;*/
+    max-width: 100%;
 }
 
 /*SUDOKU*/
